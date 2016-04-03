@@ -3,46 +3,6 @@ body {
     padding-top: 70px;
 }
 
-.navbar-default .navbar-brand {
-    /*min-width: 231px;*/
-}
-
-.divide-nav {
-    height: 80px;
-}
-
-.affix {
-    top: 45px;
-    width:100%;
-}
-
-.navbar-form {
-    padding-left: 0;
-}
-
-.navbar-collapse {
-    padding-left: 0; 
-}
-
-.navbar-lower {
-    z-index: 1;
-}
-
-.form-control {
-    text-transform: capitalize;
-}
-
-.ui-datepicker {
-    z-index: 1000;
-}
-.input-group .form-control {
-  z-index: 0 !important;
-}
-
-ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;    
-}
-
 @media (min-width: 979px) {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;

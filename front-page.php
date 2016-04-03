@@ -22,7 +22,7 @@
 		?>
 	</div><!-- /.col-md-8 -->
 
-	<?php if ($layout_condition) dynamic_sidebar('frontrightsidebar'); ?>
+	<?php if ($layout_condition) { echo '<div class="col-md-4">'; dynamic_sidebar('frontrightsidebar'); echo '</div>'; } ?>
 	
 </div><!-- /.row -->
 

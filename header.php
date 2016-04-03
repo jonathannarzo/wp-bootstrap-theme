@@ -26,7 +26,8 @@
 				'container_class' => 'navbar-collapse collapse',
 				'container_id' => 'navbar',
 				'menu_class' => 'nav navbar-nav',
-				'menu_id' => ''
+				'menu_id' => '',
+				'walker' => new Twbs_Walker()
 			);
 			wp_nav_menu($args);
 		?>
